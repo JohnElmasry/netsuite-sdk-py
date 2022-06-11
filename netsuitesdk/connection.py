@@ -16,6 +16,7 @@ from .api.expense_reports import ExpenseReports
 from .api.folders import Folders
 from .api.files import Files
 from .api.customers import Customers
+from .api.customers2 import Customers2
 from .api.projects import Projects
 from .api.expense_categories import ExpenseCategory
 from .api.custom_lists import CustomLists
@@ -73,3 +74,4 @@ class NetSuiteConnection:
         self.tax_groups = TaxGroups(ns_client)
         self.credit_memos = CreditMemos(ns_client)
         self.usages = Usage(ns_client)
+        self.customers2 = Customers2(ns_client)
