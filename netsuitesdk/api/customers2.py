@@ -5,7 +5,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-class Customers(ApiBase):
+class Customers2(ApiBase):
     SIMPLE_FIELDS = [
         'accountNumber',
         'addressbookList',
